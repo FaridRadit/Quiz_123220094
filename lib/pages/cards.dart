@@ -88,7 +88,7 @@ class _FavoriteButtonState extends State<FavoriteButton> {
   Widget build(BuildContext context) {
     return IconButton(
       icon: Icon(
-        isFavorite ? Icons.bookmark : Icons.bookmark,
+        isFavorite ? Icons.bookmark_outline : Icons.bookmark_outline,
         color: isFavorite ? Colors.blue : Colors.grey,
       ),
       iconSize: 30,
